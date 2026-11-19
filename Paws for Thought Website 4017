@@ -1,0 +1,451 @@
+/__codex_browser_temporary_files__/66d96904-35b0-439c-bfe8-0547c0ab4d3d/website_launch_qr.png
+https://zebra-mghsv3.my.canva.site/
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Paws for Thought | We're Officially Live!</title>
+
+  <meta name="description" content="Welcome to Paws for Thought. Discover our website and explore our approach to therapy, care and support.">
+  <meta name="theme-color" content="#244b43">
+
+  <meta property="og:title" content="Paws for Thought – We're Live!">
+  <meta property="og:description" content="A thoughtful new online home. Come and explore Paws for Thought.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://zebra-mghsv3.my.canva.site/">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    :root {
+      --green: #244b43;
+      --deep-green: #183a33;
+      --cream: #faf8f1;
+      --gold: #d5b77a;
+      --text: #34423d;
+    }
+
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      background: var(--cream);
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    .hero {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 40px 22px;
+      background:
+        radial-gradient(circle at top right,
+          rgba(213,183,122,.22), transparent 35%),
+        linear-gradient(135deg, #faf8f1, #e8eee7);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .paw {
+      font-size: 65px;
+      margin-bottom: 15px;
+      animation: float 3s ease-in-out infinite;
+    }
+
+    .brand {
+      color: var(--green);
+      font-family: Georgia, serif;
+      font-size: clamp(36px, 7vw, 65px);
+      font-weight: bold;
+      letter-spacing: -2px;
+      margin-bottom: 12px;
+    }
+
+    .tagline {
+      font-size: 13px;
+      letter-spacing: 4px;
+      text-transform: uppercase;
+      color: #8b7650;
+      margin-bottom: 38px;
+    }
+
+    .announcement {
+      background: var(--green);
+      color: white;
+      padding: 10px 24px;
+      border-radius: 50px;
+      font-size: 13px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      margin-bottom: 25px;
+      display: inline-block;
+    }
+
+    h1 {
+      font-family: Georgia, serif;
+      color: var(--deep-green);
+      font-size: clamp(38px, 7vw, 68px);
+      line-height: 1.12;
+      max-width: 850px;
+      margin-bottom: 24px;
+    }
+
+    .description {
+      max-width: 620px;
+      font-size: 18px;
+      color: #59665f;
+      margin-bottom: 35px;
+    }
+
+    .buttons {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 15px;
+    }
+
+    .button {
+      display: inline-block;
+      padding: 16px 32px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-size: 15px;
+      font-weight: bold;
+      transition: .3s ease;
+      cursor: pointer;
+      border: 2px solid var(--green);
+    }
+
+    .primary {
+      color: white;
+      background: var(--green);
+    }
+
+    .primary:hover {
+      background: var(--deep-green);
+      transform: translateY(-3px);
+    }
+
+    .secondary {
+      color: var(--green);
+      background: transparent;
+    }
+
+    .secondary:hover {
+      background: white;
+      transform: translateY(-3px);
+    }
+
+    .welcome {
+      padding: 75px 22px;
+      text-align: center;
+      background: white;
+    }
+
+    .welcome h2 {
+      font-family: Georgia, serif;
+      font-size: 36px;
+      color: var(--green);
+      margin-bottom: 20px;
+    }
+
+    .welcome p {
+      max-width: 700px;
+      margin: auto;
+      font-size: 17px;
+      color: #68736d;
+    }
+
+    .values {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 25px;
+      padding: 55px 20px;
+      background: #eef1e9;
+    }
+
+    .value {
+      width: 230px;
+      padding: 25px 20px;
+      text-align: center;
+    }
+
+    .value-icon {
+      font-size: 36px;
+      margin-bottom: 12px;
+    }
+
+    .value h3 {
+      font-family: Georgia, serif;
+      color: var(--green);
+      font-size: 21px;
+      margin-bottom: 8px;
+    }
+
+    .value p {
+      font-size: 14px;
+      color: #68736d;
+    }
+
+    .closing {
+      text-align: center;
+      padding: 75px 20px;
+      background: var(--green);
+      color: white;
+    }
+
+    .closing h2 {
+      font-family: Georgia, serif;
+      font-size: clamp(30px, 5vw, 43px);
+      margin-bottom: 15px;
+    }
+
+    .closing p {
+      margin-bottom: 28px;
+      color: #e2e9e3;
+    }
+
+    .closing .button {
+      background: var(--gold);
+      border-color: var(--gold);
+      color: var(--deep-green);
+    }
+
+    footer {
+      padding: 25px;
+      background: var(--deep-green);
+      text-align: center;
+      color: #e2e9e3;
+      font-size: 13px;
+    }
+
+    .footer-paw {
+      font-size: 20px;
+      margin-bottom: 8px;
+    }
+
+    @keyframes float {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-12px); }
+    }
+
+    @media (max-width: 600px) {
+      .description {
+        font-size: 16px;
+      }
+
+      .button {
+        width: 100%;
+        max-width: 300px;
+      }
+
+      .tagline {
+        letter-spacing: 2px;
+        font-size: 11px;
+      }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after {
+        animation-duration: 0.01ms !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- HERO SECTION -->
+
+  <header class="hero">
+
+    <div class="paw" aria-hidden="true">🐾</div>
+
+    <div class="brand">Paws for Thought</div>
+
+    <div class="tagline">
+      A thoughtful approach to therapy
+    </div>
+
+    <div class="announcement">
+      ✨ Officially launched ✨
+    </div>
+
+    <h1>
+      We're excited to welcome you!
+    </h1>
+
+    <p class="description">
+      A new online home for Paws for Thought is here.
+      Take a moment to explore our website, discover
+      what we're about and find out more about our
+      approach to therapy and support.
+    </p>
+
+    <div class="buttons">
+
+      <a
+        class="button primary"
+        href="https://zebra-mghsv3.my.canva.site/"
+        target="_blank"
+        rel="noopener noreferrer">
+        Explore Our Website →
+      </a>
+
+      <button
+        class="button secondary"
+        onclick="shareWebsite()">
+        Share Our Launch ↗
+      </button>
+
+    </div>
+
+  </header>
+
+  <!-- WELCOME SECTION -->
+
+  <section class="welcome">
+
+    <h2>Welcome to Paws for Thought</h2>
+
+    <p>
+      We're delighted to share our website with you.
+      This is your opportunity to learn more about
+      Paws for Thought, explore our work and discover
+      what makes our approach special.
+      Thank you for being part of our journey.
+    </p>
+
+  </section>
+
+  <!-- VALUES SECTION -->
+
+  <section class="values">
+
+    <div class="value">
+      <div class="value-icon">💚</div>
+      <h3>Care</h3>
+      <p>
+        A welcoming and thoughtful approach
+        to support and wellbeing.
+      </p>
+    </div>
+
+    <div class="value">
+      <div class="value-icon">🐾</div>
+      <h3>Connection</h3>
+      <p>
+        Celebrating the importance of
+        understanding and connection.
+      </p>
+    </div>
+
+    <div class="value">
+      <div class="value-icon">🌱</div>
+      <h3>Growth</h3>
+      <p>
+        Creating opportunities to learn,
+        develop and move forward.
+      </p>
+    </div>
+
+  </section>
+
+  <!-- FINAL CALL TO ACTION -->
+
+  <section class="closing">
+
+    <h2>Come and take a look!</h2>
+
+    <p>
+      We'd love you to visit our new website
+      and discover Paws for Thought.
+    </p>
+
+    <a
+      class="button"
+      href="https://zebra-mghsv3.my.canva.site/"
+      target="_blank"
+      rel="noopener noreferrer">
+      Visit Paws for Thought
+    </a>
+
+  </section>
+
+  <!-- FOOTER -->
+
+  <footer>
+
+    <div class="footer-paw">🐾</div>
+
+    <p>
+      © <span id="year"></span> Paws for Thought.
+      All rights reserved.
+    </p>
+
+    <p>Thank you for being part of our journey.</p>
+
+  </footer>
+
+  <!-- JAVASCRIPT -->
+
+  <script>
+
+    // Automatically update copyright year
+
+    document.getElementById("year").textContent =
+      new Date().getFullYear();
+
+    // Share website launch
+
+    async function shareWebsite() {
+
+      const shareData = {
+        title: "Paws for Thought – We're Live!",
+        text: "Exciting news! The Paws for Thought website is now live. Come and take a look!",
+        url: "https://zebra-mghsv3.my.canva.site/"
+      };
+
+      try {
+
+        if (navigator.share) {
+
+          await navigator.share(shareData);
+
+        } else {
+
+          await navigator.clipboard.writeText(
+            shareData.url
+          );
+
+          alert("Website link copied! Share it with your friends.");
+
+        }
+
+      } catch (error) {
+
+        if (error.name !== "AbortError") {
+          alert("Please copy and share our website link: " +
+            shareData.url);
+        }
+
+      }
+
+    }
+
+  </script>
+
+</body>
+</html>
